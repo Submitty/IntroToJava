@@ -1,0 +1,23 @@
+RIDES, Astro Orbiter, 9, 3
+RIDES, Big Thunder Mountain, 1, 4
+RIDES, Buzz Lightyear's Space Ranger Spin, 10, 5
+RIDES, Dumbo the Flying Elephant, 4, 6
+RIDES, Haunted Mansion, 1, 9
+RIDES, It's a small world, 5, 1
+RIDES, Mickey's PhilharMagic, 3, 1
+RIDES, Seven Dwarfs Mine Train, 2, 1
+RIDES, Space Mountain, 6, 2
+RIDES, Splash Nountain, 4, 8
+RIDES, Peter Pan's Flight, 10, 1
+FOOD, The Diamond Horseshoe, 8, 5
+FOOD, Aloha Isle, 5, 4
+FOOD, Be Our Guest Restaurant, 7, 8
+FOOD, Cheshire Cafe, 2, 7
+FOOD, Columbia Horbour House, 7, 3
+FOOD, Cosmic Rays Starlight Cafe, 9, 9
+FOOD, The Launching Pad, 3, 8
+SHOW, Casey's Corner Pianist, 6, 6
+SHOW, The Dapper Dans, 2, 4
+SHOW, Happily Ever After, 5, 8
+SHOW, Let the Magic begin, 6, 10
+SHOW, Move It! Shake It! MousekeDance It! Street Party, 10, 10

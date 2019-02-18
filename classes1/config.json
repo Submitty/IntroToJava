@@ -1,0 +1,66 @@
+{
+  "resource_limits" : {
+    "RLIMIT_CPU" : 60,
+    "RLIMIT_NPROC" : 100,
+    "RLIMIT_AS" : "RLIM_INFINITY"
+  },
+
+  "testcases" : [
+    // The Submitty system supports Java, and Java code can be graded by 
+    // running JUnit tests.
+    {
+      "type" : "Compilation",
+      "title" : "Java - Compilation",
+      "command" : "javac *.java",
+      "executable_name" : "Main.class",
+      "points" : 10
+    },
+    {
+      "title" : "Average use case",
+      "command" : "java Main.class",
+      "points" : 50,
+      "validation" : [
+        {
+          "method" : "diff",
+          "actual_file" : "STDOUT.txt",
+          "expected_file" : "main_out.txt"
+        }
+      ],
+      }
+      {
+      "title" : "toString tests",
+      "command" : "java Main.class",
+      "points" : 10,
+      "validation" : [
+        {
+          "method" : "diff",
+          "actual_file" : "STDOUT.txt",
+          "expected_file" : "toString_output.txt"
+        }
+      ]
+    }
+     {
+      "title" : "setter and getter tests",
+      "command" : "java Main.class",
+      "points" : 10,
+      "validation" : [
+        {
+          "method" : "diff",
+          "actual_file" : "STDOUT.txt",
+          "expected_file" : "SandGOut.txt"
+        }
+      ]
+    }
+     {
+      "title" : "file not found test",
+      "command" : "java Main.class",
+      "points" : 5,
+      "validation" : [
+        {
+          "method" : "diff",
+          "actual_file" : "STDOUT.txt",
+          "expected_file" : "file_error.txt"
+        }
+      ]
+    }
+}
