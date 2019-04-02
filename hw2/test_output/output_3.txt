@@ -1,0 +1,8 @@
+Welcome to the BMI calculator
+Enter your height (feet):
+5
+Enter your remaining height (inches):
+7
+Enter your weight (lbs):
+150
+Your BMI is 23.49

@@ -1,0 +1,81 @@
+{
+  "resource_limits" : {
+    "RLIMIT_CPU" : 60,
+    "RLIMIT_NPROC" : 100,
+    "RLIMIT_AS" : "RLIM_INFINITY"
+  },
+
+  "testcases" : [
+    // The Submitty system supports Java, and Java code can be graded by 
+    // running JUnit tests.
+    {
+      "type" : "Compilation",
+      "title" : "Java - Compilation",
+      "command" : "javac Part1.java",
+      "executable_name" : "Part1.class",
+      "points" : 2
+    },
+    {
+      "title" : "Output Match",
+      "command" : "java Part1 < input.txt > STDOUT.txt",
+      "points" : 10,
+      "validation" : [
+        {
+          "method" : "diff",
+          "actual_file" : "STDOUT.txt",
+          "expected_file" : "output_1.txt"
+        }
+      ]
+    },
+    {
+      "title" : "Random charecters and numbers",
+      "command" : "java Part1 < input_random_char.txt > STDOUT.txt",
+      "points" : 10,
+      "validation" : [
+        {
+          "method" : "diff",
+          "actual_file" : "STDOUT.txt",
+          "expected_file" : "output_2.txt"
+        }
+      ]
+    },
+    {
+      "type" : "Compilation",
+      "title" : "Java - Compilation",
+      "command" : "javac Part2.java",
+      "executable_name" : "Part2.class",
+      "points" : 2
+    },
+    {
+      "title" : "Output Match",
+      "command" : "java Part2 < bmi_input.txt > STDOUT.txt",
+      "points" : 10,
+      "validation" : [
+        {
+          "method" : "diff",
+          "actual_file" : "STDOUT.txt",
+          "expected_file" : "output_3.txt"
+        }
+      ]
+    },
+    {
+      "type" : "Compilation",
+      "title" : "Java - Compilation",
+      "command" : "javac Part3.java",
+      "executable_name" : "Part3.class",
+      "points" : 2
+    },
+    {
+      "title" : "Output Match",
+      "command" : "java Part3 < calc_input.txt > STDOUT.txt",
+      "points" : 10,
+      "validation" : [
+        {
+          "method" : "diff",
+          "actual_file" : "STDOUT.txt",
+          "expected_file" : "output_4.txt"
+        }
+      ]
+    }
+  ]
+}

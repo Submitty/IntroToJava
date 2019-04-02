@@ -1,0 +1,13 @@
+Enter a adjective: fascinating
+Enter a adjective: modern
+Enter a adjective: boring
+Enter a adjective: powerful
+Enter a noun: chair
+Enter a noun: attraction
+Enter a noun: addition
+Enter a verb: move
+Enter a verb: disturbed
+Enter a verb: chased
+Enter a adverb: carefully
+Enter a adverb: quickly
+Today I went to the zoo. I saw a fascinating chair jumping up and down in its tree. He move carefully through the large tunnel that led to its modern attraction. I got some peanuts and passed them through the cage to a gigantic gray addition towering above my head. Feeding that animal made me hungry. I went to get a boring scoop of ice cream. It filled my stomach. Afterwards I had to disturbed quickly to catch our bus. When I got home I chased my mom for a powerful day at the zoo.
