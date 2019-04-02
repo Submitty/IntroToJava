@@ -1,0 +1,57 @@
+{
+  "resource_limits" : {
+    "RLIMIT_CPU" : 60,
+    "RLIMIT_NPROC" : 100,
+    "RLIMIT_AS" : "RLIM_INFINITY"
+  },
+
+  "testcases" : [
+
+    {
+      "type" : "Compilation",
+      "title" : "Java - Compilation",
+      "command" : "javac Part1.java",
+      "executable_name" : "Part1.class",
+      "points" : 2
+    },    
+    {
+      "title" : "Output Match",
+      "command" : "java Part1 < input.txt > STDOUT.txt",
+      "points" : 10,
+      "validation" : [
+        {
+          "method" : "diff",
+          "actual_file" : "STDOUT.txt",
+          "expected_file" : "part1_sol.txt"
+        }
+      ]
+    },
+    {
+      "command" : "sleep 1",
+      "title" : "Part 2",
+      "points" : 10,
+      "hidden" : true,
+      "validation" : [
+        {
+          "method" : "diff",
+          "actual_file" : "part2.txt",
+          "expected_file" : "part2_solution.txt"
+        }
+      ]
+    },
+
+    {
+      "command" : "sleep 1",
+      "title" : "Part 3",
+      "points" : 10,
+      "hidden" : true,
+      "validation" : [
+        {
+          "method" : "diff",
+          "actual_file" : "part3.txt",
+          "expected_file" : "part3_solution.txt"
+        }
+      ]
+    }
+  ]
+}

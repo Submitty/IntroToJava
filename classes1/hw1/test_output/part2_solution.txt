@@ -1,0 +1,6 @@
+String
+char
+int
+double
+double
+boolean
