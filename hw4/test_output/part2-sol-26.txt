@@ -1,0 +1,50 @@
+MIN: 1 MAX: 100 Guess: 65 Answer: 5
+MIN: 1 MAX: 64 Guess: 35 Answer: 5
+MIN: 1 MAX: 34 Guess: 34 Answer: 5
+MIN: 1 MAX: 33 Guess: 12 Answer: 5
+MIN: 1 MAX: 11 Guess: 6 Answer: 5
+MIN: 1 MAX: 5 Guess: 3 Answer: 5
+MIN: 4 MAX: 5 Guess: 5 Answer: 5
+Correct after 7
+MIN: 1 MAX: 100 Guess: 75 Answer: 14
+MIN: 1 MAX: 74 Guess: 18 Answer: 14
+MIN: 1 MAX: 17 Guess: 15 Answer: 14
+MIN: 1 MAX: 14 Guess: 1 Answer: 14
+MIN: 2 MAX: 14 Guess: 4 Answer: 14
+MIN: 5 MAX: 14 Guess: 6 Answer: 14
+MIN: 7 MAX: 14 Guess: 9 Answer: 14
+MIN: 10 MAX: 14 Guess: 11 Answer: 14
+MIN: 12 MAX: 14 Guess: 14 Answer: 14
+Correct after 9
+MIN: 1 MAX: 100 Guess: 77 Answer: 89
+MIN: 78 MAX: 100 Guess: 90 Answer: 89
+MIN: 78 MAX: 89 Guess: 80 Answer: 89
+MIN: 81 MAX: 89 Guess: 82 Answer: 89
+MIN: 83 MAX: 89 Guess: 84 Answer: 89
+MIN: 85 MAX: 89 Guess: 89 Answer: 89
+Correct after 6
+MIN: 1 MAX: 100 Guess: 99 Answer: 80
+MIN: 1 MAX: 98 Guess: 21 Answer: 80
+MIN: 22 MAX: 98 Guess: 86 Answer: 80
+MIN: 22 MAX: 85 Guess: 67 Answer: 80
+MIN: 68 MAX: 85 Guess: 70 Answer: 80
+MIN: 71 MAX: 85 Guess: 81 Answer: 80
+MIN: 71 MAX: 80 Guess: 74 Answer: 80
+MIN: 75 MAX: 80 Guess: 76 Answer: 80
+MIN: 77 MAX: 80 Guess: 78 Answer: 80
+MIN: 79 MAX: 80 Guess: 80 Answer: 80
+Correct after 10
+MIN: 1 MAX: 100 Guess: 20 Answer: 84
+MIN: 21 MAX: 100 Guess: 89 Answer: 84
+MIN: 21 MAX: 88 Guess: 64 Answer: 84
+MIN: 65 MAX: 88 Guess: 83 Answer: 84
+MIN: 84 MAX: 88 Guess: 87 Answer: 84
+MIN: 84 MAX: 86 Guess: 84 Answer: 84
+Correct after 6
+Stats
+Game 1: Attemps until correct = 7
+Game 2: Attemps until correct = 9
+Game 3: Attemps until correct = 6
+Game 4: Attemps until correct = 10
+Game 5: Attemps until correct = 6
+On Averge completed in 7.6

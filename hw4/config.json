@@ -1,0 +1,62 @@
+{
+  "resource_limits" : {
+    "RLIMIT_CPU" : 60,
+    "RLIMIT_NPROC" : 100,
+    "RLIMIT_AS" : "RLIM_INFINITY"
+  },
+
+  "testcases" : [
+    // The Submitty system supports Java, and Java code can be graded by 
+    // running JUnit tests.
+    {
+      "type" : "Compilation",
+      "title" : "Java - Compilation",
+      "command" : "javac Part1.java",
+      "executable_name" : "Part1.class",
+      "points" : 2
+    },
+    {
+      "type" : "Compilation",
+      "title" : "Java - Compilation",
+      "command" : "javac Part2.java",
+      "executable_name" : "Part2.class",
+      "points" : 2
+    },
+    {
+      "title" : "test 10 2 5",
+      "command" : "java Part1 < part1-test-10,2,5.txt > STDOUT.txt",
+      "points" : 10,
+      "validation" : [
+        {
+          "method" : "diff",
+          "actual_file" : "STDOUT.txt",
+          "expected_file" : "part1-sol-10,2,5.txt"
+        }
+      ]
+    },
+    {
+      "title" : "test 100 3 5",
+      "command" : "java Part1 < part1-test-100,3,5.txt > STDOUT.txt",
+      "points" : 10,
+      "validation" : [
+        {
+          "method" : "diff",
+          "actual_file" : "STDOUT.txt",
+          "expected_file" : "part1-sol-100,3,5.txt"
+        }
+      ]
+    },
+    {
+      "title" : "test with random seed",
+      "command" : "java Part2 26 > STDOUT.txt",
+      "points" : 10,
+      "validation" : [
+        {
+          "method" : "diff",
+          "actual_file" : "STDOUT.txt",
+          "expected_file" : "part2-sol-26.txt"
+        }
+      ]
+    }
+  ]
+}

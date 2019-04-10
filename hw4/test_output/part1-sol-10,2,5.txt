@@ -1,0 +1,13 @@
+Enter n => 10
+Enter num1 => 2
+Enter num2 => 5
+1
+Buzz
+3
+Buzz
+Fizz
+Buzz
+7
+Buzz
+9
+FizzBuzz
