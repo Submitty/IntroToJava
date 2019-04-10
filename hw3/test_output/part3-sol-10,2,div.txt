@@ -1,0 +1,26 @@
+Enter the first number: 10
+Enter the second number: 2
+List of addition commands
+	1) add
+	2) sum
+	3) addition
+	4) +
+
+List of subtraction commands
+	1) sub
+	2) subtract
+	3) subtraction
+	4) -
+
+List of multiplication commands
+	1) times
+	2) multiplication
+	3) multiply
+	4) *
+
+List of integer division commands
+	1) div
+	2) divide
+	3) /
+Enter command: div
+10 / 2 = 5

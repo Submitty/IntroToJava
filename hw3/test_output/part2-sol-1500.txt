@@ -1,0 +1,7 @@
+Enter a number: 1500
+1500 is divisible by 2
+1500 is divisible by 3
+1500 is divisible by 5
+1500 is divisible by 10
+1500 is divisible by 100
+1500 is divisible by 1500
