@@ -1,0 +1,128 @@
+{
+    "resource_limits" : {
+      "RLIMIT_CPU" : 60,
+      "RLIMIT_NPROC" : 100,
+      "RLIMIT_AS" : "RLIM_INFINITY"
+    },
+  
+    "testcases" : [
+  
+      {
+        "type" : "Compilation",
+        "title" : "Java - Compilation",
+        "command" : "javac Part1.java",
+        "executable_name" : "Part1.class",
+        "points" : 2
+      },
+      {
+        "type" : "Compilation",
+        "title" : "Java - Compilation",
+        "command" : "javac Part2.java",
+        "executable_name" : "Part2.class",
+        "points" : 2
+      },
+      {
+        "type" : "Compilation",
+        "title" : "Java - Compilation",
+        "command" : "javac Part3.java",
+        "executable_name" : "Part3.class",
+        "points" : 2
+      },
+      {
+        "type" : "Compilation",
+        "title" : "Java - Compilation",
+        "command" : "javac Part1TestA.java",
+        "executable_name" : "Part1TestA.class",
+        "points" : 2
+      },
+      {
+        "type" : "Compilation",
+        "title" : "Java - Compilation",
+        "command" : "javac Part1TestB.java",
+        "executable_name" : "Part1TestB.class",
+        "points" : 2
+      },
+      {
+        "type" : "Compilation",
+        "title" : "Java - Compilation",
+        "command" : "javac Part1TestC.java",
+        "executable_name" : "Part1TestC.class",
+        "points" : 2
+      },
+      {
+        "type" : "Compilation",
+        "title" : "Java - Compilation",
+        "command" : "javac Part2Test.java",
+        "executable_name" : "Part2Test.class",
+        "points" : 2
+      },
+      {
+        "type" : "Compilation",
+        "title" : "Java - Compilation",
+        "command" : "javac Part3Test.java",
+        "executable_name" : "Part3Test.class",
+        "points" : 2
+      },
+      {
+        "title" : "Test 1",
+        "command" : "java Part1TestA > STDOUT.txt",
+        "points" : 15,
+        "validation" : [
+          {
+            "method" : "diff",
+            "actual_file" : "STDOUT.txt",
+            "expected_file" : "output1A.txt"
+          }
+        ]
+      },
+      {
+        "title" : "Test 2",
+        "command" : "java Part1TestB > STDOUT.txt",
+        "points" : 15,
+        "validation" : [
+          {
+            "method" : "diff",
+            "actual_file" : "STDOUT.txt",
+            "expected_file" : "output1B.txt"
+          }
+        ]
+      },
+      {
+        "title" : "Test 3",
+        "command" : "java Part1TestC > STDOUT.txt",
+        "points" : 15,
+        "validation" : [
+          {
+            "method" : "diff",
+            "actual_file" : "STDOUT.txt",
+            "expected_file" : "output1C.txt"
+          }
+        ]
+      },
+      {
+        "title" : "Test 4",
+        "command" : "java Part2Test > STDOUT.txt",
+        "points" : 15,
+        "validation" : [
+          {
+            "method" : "diff",
+            "actual_file" : "STDOUT.txt",
+            "expected_file" : "output2.txt"
+          }
+        ]
+      },
+      {
+        "title" : "Test 5",
+        "command" : "java Part3Test > STDOUT.txt",
+        "points" : 15,
+        "validation" : [
+          {
+            "method" : "diff",
+            "actual_file" : "STDOUT.txt",
+            "expected_file" : "output3.txt"
+          }
+        ]
+      }
+    ]
+  }
+  

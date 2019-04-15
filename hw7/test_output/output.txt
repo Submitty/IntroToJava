@@ -1,0 +1,128 @@
+Testing get method
+Passed
+Running init test (if this fails you probably edited a do not modify method)
+Your matrix
+[ 1 2 3
+  4 5 6 ]
+Correct matrix
+[ 1 2 3
+  4 5 6 ]
+test result: Passed
+
+Running addition test 1
+Your matrix
+[ 2 4 6
+  8 10 12 ]
+Correct matrix
+[ 2 4 6
+  8 10 12 ]
+test result: Passed
+
+Running addition test 2
+Your matrix
+[ 15 9 40 9
+  14 83 6 2
+  14 8 11 3 ]
+Correct matrix
+[ 15 9 40 9
+  14 83 6 2
+  14 8 11 3 ]
+test result: Passed
+
+Running subtraction test 1
+Your matrix
+[ 0 0 0
+  0 0 0 ]
+Correct matrix
+[ 0 0 0
+  0 0 0 ]
+test result: Passed
+
+Running subtraction test 2
+Your matrix
+[ -1 -1 -28 -5
+  4 -67 2 2
+  -4 -4 3 -3 ]
+Correct matrix
+[ -1 -1 -28 -5
+  4 -67 2 2
+  -4 -4 3 -3 ]
+test result: Passed
+
+Running multiplication test 1
+Your matrix
+[ 103 157 97
+  54 85 53 ]
+Correct matrix
+[ 103 157 97
+  54 85 53 ]
+test result: Passed
+
+Running multiplication test 2
+Your matrix
+[ 4 7 2
+  4 8 6
+  1 9 4 ]
+Correct matrix
+[ 4 7 2
+  4 8 6
+  1 9 4 ]
+test result: Passed
+
+Running symmetic test 1
+Test: Passed
+
+Invalid dimensions
+Running symmetic test 2
+Test: Passed
+
+Running transpose test 1
+Your matrix
+[ 1 4
+  2 5
+  3 6 ]
+Correct matrix
+[ 1 4
+  2 5
+  3 6 ]
+test result: Passed
+
+Running transpose test 2
+Your matrix
+[ 1 0 0
+  0 1 0
+  0 0 1 ]
+Correct matrix
+[ 1 0 0
+  0 1 0
+  0 0 1 ]
+test result: Passed
+
+Running colmeans test 1
+Test: Passed
+
+Running colmeans and set test 1
+Test: Passed
+
+Running addRow test
+Your matrix
+[ 1 2 3
+  4 5 6
+  7 8 9 ]
+Correct matrix
+[ 1 2 3
+  4 5 6
+  7 8 9 ]
+test result: Passed
+
+Running addCol test
+Your matrix
+[ 1 2 3 7
+  4 5 6 8
+  7 8 9 9 ]
+Correct matrix
+[ 1 2 3 7
+  4 5 6 8
+  7 8 9 9 ]
+test result: Passed
+

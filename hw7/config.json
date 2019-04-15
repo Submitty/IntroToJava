@@ -1,0 +1,38 @@
+{
+    "resource_limits" : {
+      "RLIMIT_CPU" : 60,
+      "RLIMIT_NPROC" : 100,
+      "RLIMIT_AS" : "RLIM_INFINITY"
+    },
+  
+    "testcases" : [
+  
+      {
+        "type" : "Compilation",
+        "title" : "Java - Compilation",
+        "command" : "javac MatrixTest.java",
+        "executable_name" : "MatrixTest.class",
+        "points" : 2
+      },
+      {
+        "type" : "Compilation",
+        "title" : "Java - Compilation",
+        "command" : "javac Matrix.java",
+        "executable_name" : "Matrix.class",
+        "points" : 2
+      },
+      {
+        "title" : "Output Test",
+        "command" : "java MatrixTest > STDOUT.txt",
+        "points" : 50,
+        "validation" : [
+          {
+            "method" : "diff",
+            "actual_file" : "STDOUT.txt",
+            "expected_file" : "output.txt"
+          }
+        ]
+      }
+    ]
+  }
+  
