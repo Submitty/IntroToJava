@@ -1,0 +1,98 @@
+{
+    "resource_limits" : {
+      "RLIMIT_CPU" : 60,
+      "RLIMIT_NPROC" : 100,
+      "RLIMIT_AS" : "RLIM_INFINITY"
+    },
+  
+    "testcases" : [
+      {
+        "type" : "Compilation",
+        "title" : "Java - Compilation",
+        "command" : "javac Part1.java",
+        "executable_name" : "Part1.class",
+        "points" : 2
+      },
+      {
+        "type" : "Compilation",
+        "title" : "Java - Compilation",
+        "command" : "javac Part1Test.java",
+        "executable_name" : "Part1Test.class",
+        "points" : 2
+      },
+      {
+        "type" : "Compilation",
+        "title" : "Java - Compilation",
+        "command" : "javac Part2.java",
+        "executable_name" : "Part2.class",
+        "points" : 2
+      },
+      {
+        "type" : "Compilation",
+        "title" : "Java - Compilation",
+        "command" : "javac Part3.java",
+        "executable_name" : "Part3.class",
+        "points" : 2
+      },
+      {
+        "title" : "test Part 1",
+        "command" : "java Part1Test > STDOUT.txt",
+        "points" : 20,
+        "validation" : [
+          {
+            "method" : "diff",
+            "actual_file" : "STDOUT.txt",
+            "expected_file" : "part1-sol.txt"
+          }
+        ]
+      },
+      {
+        "title" : "test Part 2 a",
+        "command" : "java Part2 < part2-test-a.txt > STDOUT.txt",
+        "points" : 10,
+        "validation" : [
+          {
+            "method" : "diff",
+            "actual_file" : "STDOUT.txt",
+            "expected_file" : "part2-sol-a.txt"
+          }
+        ]
+      },
+      {
+        "title" : "test Part 2 b",
+        "command" : "java Part2 < part2-test-b.txt > STDOUT.txt",
+        "points" : 10,
+        "validation" : [
+          {
+            "method" : "diff",
+            "actual_file" : "STDOUT.txt",
+            "expected_file" : "part2-sol-b.txt"
+          }
+        ]
+      },
+      {
+        "title" : "test Part 3 a",
+        "command" : "java Part3 < part3-test-a.txt > STDOUT.txt",
+        "points" : 10,
+        "validation" : [
+          {
+            "method" : "diff",
+            "actual_file" : "STDOUT.txt",
+            "expected_file" : "part3-sol-a.txt"
+          }
+        ]
+      },
+      {
+        "title" : "test Part 3 b",
+        "command" : "java Part3 < part3-test-b.txt > STDOUT.txt",
+        "points" : 10,
+        "validation" : [
+          {
+            "method" : "diff",
+            "actual_file" : "STDOUT.txt",
+            "expected_file" : "part3-sol-b.txt"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,26 @@
+Testing findInArray
+Given: -1	Expected: -1
+Result: Passed
+
+Testing findInArray
+Given: 4	Expected: 4
+Result: Passed
+
+Testing findInArrayList
+Given: -1	Expected: -1
+Result: Passed
+
+Testing findInArrayList
+Given: 9	Expected: 9
+Result: Passed
+
+Testing getSizeOfArrayList
+Given: 10	Expected: 10
+Result: Passed
+
+Testing getSizeOfArray
+Given: 10	Expected: 10
+Result: Passed
+
+0 1 4 9 16 25 36 49 64 81
+0 1 4 9 16 25 36 49 64 81

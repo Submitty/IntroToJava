@@ -1,0 +1,19 @@
+Enter an positive integer, -1 will stop:1
+Enter an positive integer, -1 will stop:2
+Enter an positive integer, -1 will stop:3
+Enter an positive integer, -1 will stop:4
+Enter an positive integer, -1 will stop:5
+Enter an positive integer, -1 will stop:6
+Enter an positive integer, -1 will stop:7
+Enter an positive integer, -1 will stop:8
+Enter an positive integer, -1 will stop:9
+Enter an positive integer, -1 will stop:-1
+Number: 1, Count: 1
+Number: 2, Count: 1
+Number: 3, Count: 1
+Number: 4, Count: 1
+Number: 5, Count: 1
+Number: 6, Count: 1
+Number: 7, Count: 1
+Number: 8, Count: 1
+Number: 9, Count: 1

@@ -1,0 +1,13 @@
+How many grades do you have
+5
+Enter integer score
+100
+Enter integer score
+100
+Enter integer score
+100
+Enter integer score
+100
+Enter integer score
+100
+Your average is: 100.0

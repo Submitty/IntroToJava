@@ -1,0 +1,23 @@
+How many grades do you have
+10
+Enter integer score
+95
+Enter integer score
+83
+Enter integer score
+99
+Enter integer score
+87
+Enter integer score
+76
+Enter integer score
+100
+Enter integer score
+91
+Enter integer score
+85
+Enter integer score
+77
+Enter integer score
+90
+Your average is: 88.3
