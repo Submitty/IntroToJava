@@ -1,0 +1,4 @@
+Enter a number: 324
+324 is divisible by 2
+324 is divisible by 3
+324 is divisible by 324
