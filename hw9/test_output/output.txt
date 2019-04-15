@@ -1,0 +1,5 @@
+Bubble Sort Test Passed
+Insertion Sort Test Passed
+Merge Sort Test Passed
+Quick Sort Test Passed
+Selection Sort Test Passed
