@@ -1,0 +1,30 @@
+{
+  "resource_limits" : {
+    "RLIMIT_CPU" : 60,
+    "RLIMIT_NPROC" : 100,
+    "RLIMIT_AS" : "RLIM_INFINITY"
+  },
+
+  "testcases" : [
+
+    {
+      "type" : "Compilation",
+      "title" : "Java - Compilation",
+      "command" : "javac *.java",
+      "executable_name" : "*.class",
+      "points" : 2
+    },
+    {
+      "title" : "Output Test",
+      "command" : "java Main magic_kingdom.txt > STDOUT.txt",
+      "points" : 98,
+      "validation" : [
+        {
+          "method" : "diff",
+          "actual_file" : "STDOUT.txt",
+          "expected_file" : "output.txt"
+        }
+      ]
+    }
+  ]
+}
